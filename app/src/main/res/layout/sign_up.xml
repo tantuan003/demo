@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:ignore="MissingDefaultResource">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="105dp"
+        android:textStyle="bold"
+        />
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <EditText
+            android:drawableLeft="@drawable/baseline_email_24"
+            android:drawablePadding="10dp"
+            android:layout_width="300dp"
+            android:layout_height="48dp"
+            android:hint="Email"
+
+            />
+        <EditText
+            android:drawableLeft="@drawable/baseline_person_24"
+            android:drawablePadding="10dp"
+            android:layout_width="300dp"
+            android:layout_height="48dp"
+            android:hint="Username"
+        />
+        <EditText
+            android:drawableLeft="@drawable/baseline_lock_24"
+            android:drawablePadding="10dp"
+            android:layout_width="300dp"
+            android:layout_height="48dp"
+            android:hint="PassWord"
+
+            />
+        <EditText
+            android:drawableLeft="@drawable/baseline_lock_24"
+            android:drawablePadding="10dp"
+            android:layout_width="300dp"
+            android:layout_height="48dp"
+            android:hint="Confirm PasswWord"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginLeft="100dp"
+            android:backgroundTint="@color/blueMc"
+            android:text="Sign Up"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+</LinearLayout>
